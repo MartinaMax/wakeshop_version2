@@ -1,0 +1,151 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mukta&display=swap');
+
+:root {
+    --bs-body-font-family: 'Mukta', sans-serif;
+    --bs-headings-font-family: 'Fjalla One', sans-serif;
+    --darkblue: #030014;
+    --blue: #141D74;
+    --babyblue: #91A9E2;
+    --white: #FFF;
+}
+
+.container-blue {
+    background-color: var(--darkblue)
+}
+
+.main-margin {
+    padding: 50px 100px;
+}
+
+
+// Navigation
+.nav-subheadings {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.icon-basket {
+    margin-left: 30px;
+}
+
+
+// Hero slider
+.container-slider {
+    background-color:  var(--darkblue);
+    opacity: 50%;
+}
+
+.img-slider {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flex-card {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.flex-card > a {
+    text-decoration: none;
+}
+
+
+// clickable cards
+.wakeboard-card {
+    margin: 20vh 5vh 0 5vh;
+    padding: 14vh;
+    height: 20rem;
+    object-fit: cover;
+    background-image: url(./photos/wakeboard-card.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px)
+} 
+
+.snowboard-card {
+    margin: 20vh 5vh 0 5vh;
+    padding: 14vh;
+    height: 20rem;
+    object-fit: cover;
+    background-image: url(./photos/snowboard-card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px)
+ }
+
+.card-title {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 6rem;
+
+}
+
+.card-title2 {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.heading-centre {
+    margin-top: 20vh;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+// Recomended section
+.aCard {
+    padding: 2vh;
+    text-decoration: none;
+    color: var(--darkblue);
+}
+
+.imgCard {
+    object-fit: cover;
+    max-height: fit-content;
+}
+
+// .card-img-top {
+//     object-fit: cover;
+//     max-width: 18rem;
+//     max-height: 10rem;
+// }
+
+.content-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+// Footer
+.footer-nav {
+    li {
+        margin-bottom: .35rem;
+    }
+
+    a {
+        color:  var(--white);
+        transition: color ease-in .3s;
+        font-size: 1.025rem;
+        text-decoration: none;
+    }
+}
+
+.icon-instagram {
+    padding-right: 10px;
+}
+
+.parag-white {
+    color: var(--white);
+}

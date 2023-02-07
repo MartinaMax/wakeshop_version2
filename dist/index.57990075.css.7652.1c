@@ -1,0 +1,27 @@
+.content-center {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-nav li {
+  margin-bottom: .35rem;
+}
+
+.footer-nav a {
+  color: #fff;
+  font-size: 1.025rem;
+  text-decoration: none;
+  transition: color .3s ease-in;
+}
+
+.icon-instagram {
+  padding-right: 10px;
+}
+
+.parag-white {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.57990075.css.map */

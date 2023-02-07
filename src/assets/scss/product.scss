@@ -1,0 +1,104 @@
+
+#product-name {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+}
+
+// Image gallery
+.side-img {
+    width: 180px;
+    height: 180px;
+}
+
+.main-img {
+    width: 580px;
+    height: 580px;
+}
+
+#side-img-1,
+#side-img-2 {
+    margin-bottom: 20px;
+}
+
+#main-img {
+    margin-right: 40px;
+}
+
+.side-container {
+ max-width: 450px;
+}
+
+// Brand label
+.product-brand {
+    background-color: var(--blue) ;
+    color: var(--white);
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+}
+
+#product-brand {
+    margin-bottom: 0;
+}
+
+// Select size 
+#select-size {
+    width: 250px;
+    box-sizing: 5px;
+    border-radius: 7;
+    padding-left: 10px;
+    // filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.45));
+}
+
+// Price 
+
+
+// Add to cart button
+#add-to-cart-Btn {
+    background-color: var(--babyblue);
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+
+#add-to-cart-Btn > a {
+    text-decoration: none;
+    color: var(--darkblue);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+
+
+// Navigation tabs
+.my-nav-tabs {
+    margin-top: 100px;
+}
+
+.my-nav-tabs > a {
+    color: rgb(114, 114, 114);
+}
+
+.my-nav-tabs > a:hover {
+    color: var(--black);
+}
+
+.my-nav-tabs > a.active {
+    color: var(--black);
+}
+
+#nav-description-tab,
+#nav-specifications-tab,
+#nav-parameters-tab {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+
+#nav-description-tab.active,
+#nav-specifications-tab.active,
+#nav-parameters-tab.active {
+    border-bottom: solid 4px black;
+}
+
+.tab-content {
+    padding: 50px 500px 0 0;
+    font-size: 20px;
+}

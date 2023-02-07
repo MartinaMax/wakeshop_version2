@@ -1,0 +1,21 @@
+{
+  "name": "wakeshop",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "init": "^0.1.2"
+  }
+}
